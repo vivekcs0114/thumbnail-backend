@@ -1,0 +1,27 @@
+{
+  "name": "thumbnail-backend",
+  "version": "1.0.0",
+  "description": "Design a web page with Image-Upload-Feature where user can upload an image.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekcs0114/thumbnail-backend.git"
+  },
+  "author": "Vivek Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivekcs0114/thumbnail-backend/issues"
+  },
+  "homepage": "https://github.com/vivekcs0114/thumbnail-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multiparty": "^4.2.2",
+    "nodemon": "^2.0.6",
+    "sharp": "^0.27.0"
+  }
+}
